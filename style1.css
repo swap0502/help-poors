@@ -1,0 +1,224 @@
+.navbar
+{
+    height: 53px;
+    position: sticky;
+    display: flex;
+    background-color: black;
+    width:100%;
+
+}
+.navbar ul
+{
+    margin: 10px 5px;
+    padding: 5px;
+    display: flex;
+}
+.navbar li
+{
+margin: 10px 5px;
+    list-style: none;    }
+.navbar a
+{
+color: blanchedalmond;
+padding: 2px 10px;
+margin: 10px;
+text-decoration: none;
+}
+.navbar a:hover
+{
+    color: blue;
+
+}
+section
+{
+    margin-top: 6px;
+    height:255px;
+    padding:34px;
+   
+}
+section::before
+{
+    content: "";
+    position: absolute;
+    background: url('prj2 img/hoome.jpg') no-repeat center center/cover;
+    height: 550px;
+    width: 100%;
+    top: 0px;
+left: 0px;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+.home
+{
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-size: 1.3rem;
+   height: 175px;
+    margin-top:6px;
+     margin-bottom:120px;
+    padding-bottom:120px; 
+}
+.home h1
+{
+    font-size:3.9rem;
+    text-shadow: 2px 2px rgb(63, 167, 180);
+    margin-bottom:10px;
+    color:red;
+ font-family: 'Reggae One', cursive;
+    
+}
+.home p
+{
+    color: azure;
+    font-style: inherit;
+    font size: 43px;
+    margin: 10px 10px;
+    padding: 10px;
+}
+#btn
+{
+    font-size:1rem;
+    padding:4px 14px 4px 14px;
+    margin:40px;
+    border-radius:20px;
+    border:2px solid rgb(19, 18, 18);
+    background-color:red;
+    box-shadow: 2px 2px 2px black;
+    color: white;
+}
+#btn:hover
+{
+    background-color: whitesmoke;
+    color: red;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 620px;
+    
+}
+.content h1
+{
+    font-size: 3.1rem;
+}
+.content h2
+{
+    font-size: 2.1rem;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    color: red;
+    margin-bottom: 10px;
+}
+.content p
+{
+    font-size: 1.7rem;
+    margin-top: 5px;
+    margin-bottom: 29px;
+}
+.content img
+{
+    height: 223px;
+    width: auto;
+} 
+
+/*.cnt2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 570px;
+    margin-bottom: 450px;
+}*/
+ div h1{
+    text-align: center;
+    margin-top: 500px;
+    margin-bottom: 4px;
+    font-size: 2.9rem;
+ }
+.cnt2
+{
+    height: 25px;
+      display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom:450px ;
+    background-color:rgb(233, 243, 242);
+}
+.cnt2 img
+{
+    height: 70px;
+    width:auto;
+    padding: 10px;
+}
+.cnt3 h2
+{
+    color: red;
+    font-size: 2.1rem;
+    margin-bottom: 10px;
+}
+.cnt3 p
+{
+
+    font-size: 1.7rem;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+.cnt3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+    margin-bottom: 400px;
+    height: 100px;
+}
+.cnt3 img
+{
+    height: 60px;
+    width:auto;
+      display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#img1
+{
+    
+    height: 90px;
+    width:auto;
+}
+#img3
+{
+    
+    height: 140px;
+    width:auto;
+    margin-top: 0px;
+}
+.cnt3 h1
+{
+    font-size: 2.9rem;
+    margin-top: 50px;
+}
+footer
+{
+    margin-top: 100px;
+    background-color:black;
+    color:white;
+    text-align:center;
+    height:83px;
+    padding-top:10px;
+}
+
